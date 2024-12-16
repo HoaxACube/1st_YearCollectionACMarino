@@ -1,0 +1,4 @@
+name = input("\n\n\n\n\t\t Would you mind telling your name? Type here --> ")
+greet = input("\n\n\n\n\t\t Hi! "+ name + ", Select your greetings inside the object! (Hi/Hello) --> ")
+
+print("\n\n\n\n\n\n\n\n\n \n\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b\b\b\b===========================\n\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b\b\b\b|    Box: " + greet + ", USER!\t\b  | \n\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b\b\b\b| \t\t\t | \n\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b\b\b\b| \t    * \t\t | \n\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b\b\b\b|  for -   * * * \t | \n\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b\b\b\b| \t\b * * * * * \t | \n\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b\b\b\b|      * !" + name + "! * \t | \n\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b\b\b\b| \t\b * * * * * \t | \n\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b\b\b\b| \t  * * * \t | \n\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b\b\b\b| \t    * \t\t | \n\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b\b\b\b| \t\t\t | \n\t\t\t\t\t\t\t\t\t\b\b\b\b\b\b\b\b\b===========================  \n\n\n\n\n\n\n\n\n\n\n")
