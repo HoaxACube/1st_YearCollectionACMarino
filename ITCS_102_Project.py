@@ -1,44 +1,76 @@
+# import os
+# os.system('cls')
+
 #Project plan: Go through sa lahat ng activities and walk throughs with each and giving them information or ideas about it
 
-#plan 1. UI
-import os
+pass #plan 1. UI 
 
-os.system('cls')
 
-print("                                         ")
-print("                                         ")
-print("                                         ")
-print("                                         ")
-print("                                         ")
-print("                                         ")
-print("                                         ")
+# print("                                         ")
+# print("                                         ")
+# print("                                         ")
+# print("                                         ")
+# print("                                         ")
+# print("                                         ")
+# print("                                         ")
 
-print("                                     ____")
-print("++                                      |")
-print("+                                       |")
-print("           Greetings!                    ")
-print("                                         ")
-print("                                         ")
-print("                                         ")
-print("                                         ")
-print("|                                       +")
-print("|____                                  ++")
+# print("                                     ____")
+# print("++                                      |")
+# print("+                                       |")
+# print("           Greetings!                    ")
+# print("                                         ")
+# print("                                         ")
+# print("                                         ")
+# print("                                         ")
+# print("|                                       +")
+# print("|____                                  ++")
 
-print("                                         ")
-print("                                         ")
-print("                                         ")
-print("                                         ")
-print("                                         ")
-print("                                         ")
-print("                                         ")
-print("                                         ")
-print("                                         ")
-print("                                         ")
+# print("                                         ")
+# print("                                         ")
+# print("                                         ")
+# print("                                         ")
+# print("                                         ")
+# print("                                         ")
+# print("                                         ")
+# print("                                         ")
+# print("                                         ")
+# print("                                         ")
 
-#plan 2. functions of commands
+pass #plan 2. functions of commands
 
-#plan 3. compilation of each activities
+# tuloy = True
+# total = 0
+# while tuloy == True:
+#     num = eval(input("Enter a number: "))
 
-#plan 4. error/bug testing
+#     if num ==0:
+#         print("Okay tama na")
+#         print(f"The total of your inputted numbers is {total}!")
+#         break
 
-#plan 5. video planning
+#     else:
+#         total += num
+#         continue
+
+
+wvalue = 0
+while True:
+    welc = input(" ")
+
+    if welc == "0":
+        print(wvalue)
+        break
+
+    elif wvalue == 10:
+        print(wvalue)
+        break
+    
+    else:
+        wvalue += 1
+        continue
+
+pass #plan 3. compilation of each activities
+
+pass #plan 4. error/bug testing
+
+pass #plan 5. video planning
