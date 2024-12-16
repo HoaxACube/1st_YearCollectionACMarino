@@ -38,22 +38,9 @@ pass #plan 1. UI
 
 pass #plan 2. functions of commands
 
-# tuloy = True
-# total = 0
-# while tuloy == True:
-#     num = eval(input("Enter a number: "))
+#break test
 
-#     if num ==0:
-#         print("Okay tama na")
-#         print(f"The total of your inputted numbers is {total}!")
-#         break
-
-#     else:
-#         total += num
-#         continue
-
-
-wvalue = 0
+wvalue = 0          #UI Idea
 while True:
     welc = input(" ")
 
@@ -64,7 +51,7 @@ while True:
     elif wvalue == 10:
         print(wvalue)
         break
-    
+
     else:
         wvalue += 1
         continue
