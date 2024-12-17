@@ -1,0 +1,6 @@
+print("             Activity 1             __")
+print("**                                   |")
+print("*         |Typing test SCORE|         ")
+print("      5 Minutes Typing Test: Score    ")
+print("      44 WPM is with 93% ACCURACY    *")
+print("|__                                 **")
