@@ -1,8 +1,6 @@
 # import os
 # os.system('cls')
 
-#Project plan: Go through sa lahat ng activities and walk throughs with each and giving them information or ideas about it
-
 pass #plan 1. UI 
 
 
