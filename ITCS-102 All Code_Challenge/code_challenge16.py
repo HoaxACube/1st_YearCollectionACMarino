@@ -64,10 +64,10 @@ while Continue:
     elif choose == "2":
         print("\n--- Deposit ---")
         while True:
-           
+            try:
                 amount = float(input("Enter deposit amount: "))
                 break
-             ValueError:
+            except ValueError:
                 print("Invalid amount. Please enter a number.")
         deposit(amount)
 

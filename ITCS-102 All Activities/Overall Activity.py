@@ -1,4 +1,3 @@
-#=============/ PLAN 1: compilation of each activities \=============
 def act1():
     print("             Activity 1             __")
     print("**                                   |")
@@ -34,7 +33,6 @@ def act3():
     hobby = input("\n\t Hobbies: ")
 
     print("\n------------------------------- Here's the summary of your form -------------------------------\n\n\t\t" + "It is stated that your name is " + name + ". You can be contacted with this mobile number " + mobile + ". You'll be receiving emails at " + email + ". Your gender is " + gender + ". We can contact your guardian Mr/Ms." +  guardian + ". There are " +  siblings + " of your siblings. You live in " + address + ". Your education level is " +  education + ". You have chosen the course of " +  course + " Department. Your civil status is " +  marital + ". Your religion is " +  religion + ". You know the language(s) of " +  language + ". You like to do some " +  hobby + " as a hobby. " + "\n\n----------------------- Thanks for completing the form! Have a good day! -----------------------\n\t\t")
-
 
 #=====================================================
 def act4():
@@ -269,62 +267,3 @@ def act20():
                             print(" ", end=" ")
                 print()
         continue
-#=====================================================
-def cc():
-    pass
-# import os
-# os.system('cls')
-
-#=============/ PLAN 2: MENU SETTINGS LOOKS \=============
-
-
-# print("                                         ")
-# print("                                         ")
-# print("                                         ")
-# print("                                         ")
-# print("                                         ")
-# print("                                         ")
-# print("                                         ")
-
-# print("                                     ____")
-# print("++                                      |")
-# print("+                                       |")
-# print("           Greetings!                    ")
-# print("                                         ")
-# print("                                         ")
-# print("                                         ")
-# print("                                         ")
-# print("|                                       +")
-# print("|____                                  ++")
-
-# print("                                         ")
-# print("                                         ")
-# print("                                         ")
-# print("                                         ")
-# print("                                         ")
-# print("                                         ")
-# print("                                         ")
-# print("                                         ")
-# print("                                         ")
-# print("                                         ")
-
-#=============/ PLAN 2: functions of commands \=============
-
-#break test
-
-wvalue = 0          #UI Idea
-while True:
-    welc = input(" ")
-
-    if welc == "0":
-        print(wvalue)
-        break
-
-    elif wvalue == 10:
-        print(wvalue)
-        break
-
-    else:
-        wvalue += 1
-        continue
-#=============/ PLAN 4: ERROR/Bug Testing(my notes and comments) \=============

@@ -31,18 +31,18 @@ print(f"3. Beef - ₱{beef}")
 total_bill = 0
 
 while True:
-    choice = input("\nWhat would you like to buy? [Chicken/Pork/Beef or Done]: ").strip().lower()
+    choice = input("\nWhat would you like to buy? [1]Chicken [2]Pork [3]Beef or [0]Done: ")
 
-    if choice == "chicken":
+    if choice == "1":
         price = chicken
-    elif choice == "pork":
+    elif choice == "2":
         price = pork
-    elif choice == "beef":
+    elif choice == "3":
         price = beef
-    elif choice == "done":
+    elif choice == "4":
         break
     else:
-        print("Invalid choice. Please select Chicken, Pork, Beef, or Done.")
+        print("Invalid choice. Please select 1, 2, 3, or 0.")
         continue
 
     if is_senior:

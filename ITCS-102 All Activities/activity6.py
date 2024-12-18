@@ -1,3 +1,4 @@
+print(" Activity 6 \n")
 
 x = eval(input("Put a number: "))
 print(x)
