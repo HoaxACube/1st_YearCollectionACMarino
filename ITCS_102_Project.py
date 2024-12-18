@@ -1127,12 +1127,11 @@ input()
 os.system('cls')
 sc16()
 input()
-
+os.system('cls')
 
 
 #=============/ PLAN 2: functions of commands \=============
 while True:
-    os.system('cls')
     print("++++                                                             ==========")
     print("++                          ===============                              ||")
     print("+                              Main Menu                                 ||")
@@ -1149,7 +1148,7 @@ while True:
     print("||  professor. He can grasp most  |    improve the way he codes and it    +")
     print("||  of these topics.              |    applications in python            ++")
     print("==========     Choose which one you'd like to explore [1/2]            ++++")
-    print("                    To let me rest again do [hibernate]                    ")
+    print("                    To let me rest again do [hibernate]                    \n\n\n\n")
     mainmenu = input("Input Here: ")
     
 
@@ -1173,57 +1172,55 @@ while True:
             print("||                                                                         ")
             print("||                                                                        +")
             print("||                                                                       ++")
-            print("==========     Choose the corresponding number                         ++++")
-
-            try:
-                choice = int(input("\nEnter your choice: "))
-                if choice == 0:
-                    print("Exiting the program. Goodbye!")
-                    break
-                elif choice == 1:
-                    act1()
-                elif choice == 2:
-                    act2()
-                elif choice == 3:
-                    act3()
-                elif choice == 4:
-                    act4()
-                elif choice == 5:
-                    act5()
-                elif choice == 6:
-                    act6()
-                elif choice == 7:
-                    act7()
-                elif choice == 8:
-                    act8()
-                elif choice == 9:
-                    act9()
-                elif choice == 10:
-                    act10()
-                elif choice == 11:
-                    act11()
-                elif choice == 12:
-                    act12()
-                elif choice == 13:
-                    act13()
-                elif choice == 14:
-                    act14()
-                elif choice == 15:
-                    act15()
-                elif choice == 16:
-                    act16()
-                elif choice == 17:
-                    act17()
-                elif choice == 18:
-                    act18()
-                elif choice == 19:
-                    act19()
-                elif choice == 20:
-                    act20()
-                else:
-                    print("Invalid choice. Please choose a valid option.")
-            except ValueError:
-                print("Invalid input. Please enter a number.")
+            print("==========     Choose the corresponding number                         ++++\n\n\n\n")
+            choice = int(input("\nEnter your choice: "))
+        
+            if choice == 0:
+                print("Exiting the program. Goodbye!")
+                break
+            elif choice == 1:
+                act1()
+            elif choice == 2:
+                act2()
+            elif choice == 3:
+                act3()
+            elif choice == 4:
+                act4()
+            elif choice == 5:
+                act5()
+            elif choice == 6:
+                act6()
+            elif choice == 7:
+                act7()
+            elif choice == 8:
+                act8()
+            elif choice == 9:
+                act9()
+            elif choice == 10:
+                act10()
+            elif choice == 11:
+                act11()
+            elif choice == 12:
+                act12()
+            elif choice == 13:
+                act13()
+            elif choice == 14:
+                act14()
+            elif choice == 15:
+                act15()
+            elif choice == 16:
+                act16()
+            elif choice == 17:
+                act17()
+            elif choice == 18:
+                act18()
+            elif choice == 19:
+                act19()
+            elif choice == 20:
+                act20()
+            else:
+                print("Invalid choice. Please choose a valid option.")
+            print("Invalid input. Please enter a number.")
 
     elif mainmenu == "2":
         while True:
@@ -1243,7 +1240,7 @@ while True:
             print("||                                                                         ")
             print("||                                                                        +")
             print("||                                                                       ++")
-            print("==========     Choose the corresponding number                         ++++")  
+            print("==========     Choose the corresponding number                         ++++\n\n\n\n\n")  
 
             choice = input("Select an option by number: ")
 
@@ -1295,12 +1292,15 @@ while True:
         continue
 
 #=============/ PLAN 3: ERROR/Bug Testing(my notes and comments) \=============
-#I've plan to animate the intro, although my original plan was a clock, it was too time consuming
+
+#MY GITHUB ACCOUNT: https://github.com/HoaxACube
+
+#I've plan to animate the intro, although my original plan was a clock, it was too time consuming that I've scrap the idea
 
 #There's several errors on the menu but thankfully it's too easy to detect.
 
-#I've used several references of codes credits to: Ragudo, Orte, Terrence, Elumba
-
 #I've had trouble using github at first but then I think I've adapted to it fairly well
+
+#I've used several references of codes credits to: Ragudo, Orte, Terrence, Elumba
 
 #Did well under pressure(I was cramming lol)
