@@ -11,7 +11,50 @@ def cc2():
 
 #=====================================================
 def cc():
-    pass
+    print("\n=== Welcome to the Biodata Form ===\n")
+
+    full_name = input("Full Name: ")
+    address = input("Address: ")
+    birth_date = input("Date of Birth (MM/DD/YYYY): ")
+    birth_place = input("Place of Birth: ")
+    age = input("Age: ")
+    gender = input("Gender: ")
+    civil_status = input("Civil Status: ")
+    nationality = input("Nationality: ")
+    religion = input("Religion: ")
+    weight = input("Weight (in kg): ")
+    languages = input("Languages Known: ")
+
+    print("\n--- Family Information ---")
+    father_name = input("Father's Name: ")
+    mother_name = input("Mother's Name: ")
+
+    print("\n--- Academic & Contact Information ---")
+    school_info = input("School/Department, Year & Section: ")
+    occupation = input("Occupation: ")
+    email = input("Email Address: ")
+    mobile = input("Mobile Number: ")
+
+    print("\n=========================================================")
+    print("|                  BIODATA SUMMARY                      |")
+    print("=========================================================")
+    print(f"Name: \t\t\t{full_name}")
+    print(f"Address:\t\t{address}")
+    print(f"Date of Birth: \t\t{birth_date}")
+    print(f"Place: \t\t\t{birth_place}")
+    print(f"Age: \t\t\t{age}")
+    print(f"Gender: \t\t{gender}")
+    print(f"Civil Status: \t\t{civil_status}")
+    print(f"Nationality: \t\t{nationality}")
+    print(f"Religion: \t\t{religion}")
+    print(f"Languages Known: \t{languages}")
+    print(f"Father's Name: \t\t{father_name}")
+    print(f"Mother's Name: \t\t{mother_name}")
+    print(f"School:\t\t\t{school_info}")
+    print(f"Occupation: \t\t{occupation}")
+    print(f"Email: \t\t\t{email} | Mobile: {mobile}")
+    print("=========================================================")
+    print("\nThank you for completing the Biodata Form!")
 #=====================================================
 def cc4():
     input("\n\t\t  __________________________________________________\n------------------|Hi User! This program will evaluate your number!|------------------\n\t\t  --------------------------------------------------\n Type anything to proceed . . . ")
@@ -223,15 +266,67 @@ def cc10():
 
 #=====================================================
 def cc11():
-    pass
+    print("========== Diamond ==========")
+    for x in range(1, 5):
+        for y in range(4,x,-1):
+            print(" ",end=" ")
+        for z in range(1,x+1):
+            print("^",end=" ")    
+        for a in range(1,x):
+            print("*",end=" ")
+        print()
+
+    for x in range(1, 4):
+        for y in range(1,x+1):
+            print(" ",end=" ")
+        for z in range(4,x+1,-1):
+            print("*",end=" ")
+        for a in range(4,x,-1):
+            print("^",end=" ")
+        print()
+    print("==============================")
 
 #=====================================================
 def cc12():
-    pass
+    for a in range(1,6):
+        for b in range(6, a, -1):
+            print("  ", end="")
+        for c in range(1, a + 1):
+            print("* ", end="")
+        for d in range(1, a + 1):
+            print("* ", end="")
+        for e in range(1, a, 1):
+            print("  ", end="")
+        print()
+
+    for x in range(5):
+        print("        * * * *")
+    print()
+
+
+
 
 #=====================================================
 def cc13():
-    pass
+    print("========== Numeric Diamond ==========")
+    for i in range(1, 8):
+        for j in range(7,i,-1):
+            print(" ",end=" ")
+        for k in range(i,1,-1):
+            print(k,end=" ")    
+        for x in range(1,i+1):
+            print(x,end=" ")
+        print()
+
+    for i in range(6, 0,-1):
+        for j in range(7,i,-1):
+            print(" ",end=" ")
+        for k in range(i,1,-1):
+            print(k,end=" ")
+        for x in range(1,i+1):
+            print(x,end=" ")
+        print()
+    print("=====================================")
 #=====================================================
 def cc14():
     tuloy = True
@@ -368,3 +463,4 @@ def cc16():
 
         else:
             print("Invalid option. Please try again.")
+print("Hellow Word")
