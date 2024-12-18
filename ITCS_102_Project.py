@@ -1044,13 +1044,13 @@ def sc16():
 
 
 os.system('cls')
-input("[-.-]  <--- expand box (type anything to continue 1/3)")
+input("[-.-]  <--- Wake him up (type anything to continue 1/3)")
 
 os.system('cls')
-input("[-_-] <--- expand box (type anything to continue 2/3)")
+input("[-_-] <--- Wake him up (type anything to continue 2/3)")
 
 os.system('cls')
-input("[-.-]  <--- expand box (type anything to continue 3/3)")
+input("[-.-]  <--- Wake him up (type anything to continue 3/3)")
 
 os.system('cls')
 sc1()
@@ -1126,44 +1126,181 @@ input()
 
 os.system('cls')
 sc16()
+input()
+
+
 
 #=============/ PLAN 2: functions of commands \=============
 while True:
+    os.system('cls')
     print("++++                                                             ==========")
     print("++                          ===============                              ||")
     print("+                              Main Menu                                 ||")
     print("                            ===============                                ")
     print("                                                                           ")
     print("                        Activities | Code Challenges                       ")
-    print("                 [1]              |               [2]                     ")
-    print("     Activities contains          |     Code Challenges contains some             ")
-    print("    several basics and the        |    of the most beginner level of             ")
-    print("    fundamental applications of   |    understanding my owner 'Andrian'")
-    print("    the codes that is mostly      |    had to face.              ")
+    print("                 [1]              |               [2]                      ")
+    print("     Activities contains          |     Code Challenges contains some      ")
+    print("    several basics and the        |    of the most beginner level of       ")
+    print("    fundamental applications of   |    understanding my owner 'Andrian'    ")
+    print("    the codes that is mostly      |    had to face.                        ")
     print("    used by python users.         |     He did his best to finish each     ")
-    print("||   Thanks to my owner's         |    one of them. Hopefully he can          ")
+    print("||   Thanks to my owner's         |    one of them. Hopefully he can       ")
     print("||  professor. He can grasp most  |    improve the way he codes and it    +")
-    print("||  these topics.                 |    applications in python            ++")
+    print("||  of these topics.              |    applications in python            ++")
     print("==========     Choose which one you'd like to explore [1/2]            ++++")
+    print("                    To let me rest again do [hibernate]                    ")
     mainmenu = input("Input Here: ")
+    
 
     if mainmenu == "1":
-     print("++++                                                             ==========")
-    print("++                                                                       ||")
-    print("+                                                                        ||")
-    print("                                                                           ")
-    print("                                                                           ")
-    print("                                                                           ")
-    print("                                                                           ")
-    print("                                                                           ")
-    print("                                                                           ")
-    print("                                                                           ")
-    print("                                                                           ")
-    print("                                                                           ")
-    print("||                                                                         ")
-    print("||                                                                        +")
-    print("||                                                                       ++")
-    print("==========                                                             ++++")
-# user = input("")
+        while True:
+            print("++++                                                             ==========")
+            print("++                            < ACTIVITIES >                             ||")
+            print("+                                                                        ||")
+            print("Activity[1]: Typing Test Score         Activity[11]: Print 'Hello World'   ")
+            print("Activity[2]: Greeting with Name        Activity[12]: Countdown from 10     ")
+            print("Activity[3]: Biodata Collection        Activity[13]: Factorial Calculation ")
+            print("Activity[4]: Basic Math Ops            Activity[14]: Star Patterns         ")
+            print("Activity[5]: Fahrenheit to Celsius     Activity[15]: Incremental Patterns  ")
+            print("Activity[6]: Incremental Numbers       Activity[16]: Pyramid Pattern       ")
+            print("Activity[7]: Gold Mining Tracker       Activity[17]: Multiplication Table  ")
+            print("Activity[8]: Password Checker          Activity[18]: Star Triangle         ")
+            print("Activity[9]: Age Categorization        Activity[19]: Name Input Loop       ")
+            print("Activity[10]: Scholarship Check        Activity[20]: Triangle Patterns     ")
+            print("                                                                           ")
+            print("                           Activity[0]: Exit                               ")
+            print("||                                                                         ")
+            print("||                                                                        +")
+            print("||                                                                       ++")
+            print("==========     Choose the corresponding number                         ++++")
 
-#=============/ PLAN 4: ERROR/Bug Testing(my notes and comments) \=============
+            try:
+                choice = int(input("\nEnter your choice: "))
+                if choice == 0:
+                    print("Exiting the program. Goodbye!")
+                    break
+                elif choice == 1:
+                    act1()
+                elif choice == 2:
+                    act2()
+                elif choice == 3:
+                    act3()
+                elif choice == 4:
+                    act4()
+                elif choice == 5:
+                    act5()
+                elif choice == 6:
+                    act6()
+                elif choice == 7:
+                    act7()
+                elif choice == 8:
+                    act8()
+                elif choice == 9:
+                    act9()
+                elif choice == 10:
+                    act10()
+                elif choice == 11:
+                    act11()
+                elif choice == 12:
+                    act12()
+                elif choice == 13:
+                    act13()
+                elif choice == 14:
+                    act14()
+                elif choice == 15:
+                    act15()
+                elif choice == 16:
+                    act16()
+                elif choice == 17:
+                    act17()
+                elif choice == 18:
+                    act18()
+                elif choice == 19:
+                    act19()
+                elif choice == 20:
+                    act20()
+                else:
+                    print("Invalid choice. Please choose a valid option.")
+            except ValueError:
+                print("Invalid input. Please enter a number.")
+
+    elif mainmenu == "2":
+        while True:
+            print("++++                                                             ==========")
+            print("++                          < Code Challenges >                          ||")
+            print("+                                                                        ||")
+            print("Activity[1]: Greetings Animation     Activity[9]: Reverse Pyramid          ")
+            print("Activity[2]: Greeting Box           Activity[10]: Star Pyramid             ")
+            print("Activity[3]: Biodata Form           Activity[11]: Diamond Shape            ")
+            print("Activity[4]: Arithmetic Operations  Activity[12]: Star Pyramid with Base   ")
+            print("Activity[5]: Deposit Denommination  Activity[13]: Numeric Diamond          ")
+            print("Activity[6]: Course Evaluation      Activity[14]: Summation Until Zero     ")
+            print("Activity[7]: Grocery Calculator     Activity[15]: Repeated Triangle Pattern")
+            print("Activity[8]: Odd and Even Calc..    Activity[16]: Bank Account Manager     ")
+            print("                                                                           ")
+            print("                         Activity[0]: Exit Program                         ")
+            print("||                                                                         ")
+            print("||                                                                        +")
+            print("||                                                                       ++")
+            print("==========     Choose the corresponding number                         ++++")  
+
+            choice = input("Select an option by number: ")
+
+            if choice == "1":
+                cc1()
+            elif choice == "2":
+                cc2()
+            elif choice == "3":
+                cc3()
+            elif choice == "4":
+                cc4()
+            elif choice == "5":
+                cc5()
+            elif choice == "6":
+                cc6()
+            elif choice == "7":
+                cc7()
+            elif choice == "8":
+                cc8()
+            elif choice == "9":
+                cc9()
+            elif choice == "10":
+                cc10()
+            elif choice == "11":
+                cc11()
+            elif choice == "12":
+                cc12()
+            elif choice == "13":
+                cc13()
+            elif choice == "14":
+                cc14()
+            elif choice == "15":
+                cc15()
+            elif choice == "16":
+                cc16()
+            elif choice == "0":
+                print("Exiting Program. Goodbye!")
+                break
+            else:
+                print("Invalid choice. Please select a valid option.")
+    
+    elif mainmenu.lower() == "hibernate":
+        os.system('cls')
+        print("Thank you! LIGHTS OUT! [^_^]/-\n\nBest Regards From: Andrian C. Marino")
+        break
+    else:
+        os.system('cls')
+        print("Please Choose Properly")
+        continue
+
+#=============/ PLAN 3: ERROR/Bug Testing(my notes and comments) \=============
+#I've plan to animate the intro, although my original plan was a clock, it was too time consuming
+
+#There's several errors on the menu but thankfully it's too easy to detect.
+
+#I've used several references of codes credits to: Ragudo, Orte, Terrence, Elumba
+
+#I've had trouble using github at first but then I think I've adapted to it fairly well
+
+#Did well under pressure(I was cramming lol)
