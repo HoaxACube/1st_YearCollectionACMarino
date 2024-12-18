@@ -39,7 +39,7 @@ while True:
         price = pork
     elif choice == "3":
         price = beef
-    elif choice == "4":
+    elif choice == "0":
         break
     else:
         print("Invalid choice. Please select 1, 2, 3, or 0.")
