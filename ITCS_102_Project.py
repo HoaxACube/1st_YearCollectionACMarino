@@ -1132,6 +1132,7 @@ os.system('cls')
 
 #=============/ PLAN 2: functions of commands \=============
 while True:
+    print("--------------------------- ^simulation output^----------------------------")
     print("++++                                                             ==========")
     print("++                          ===============                              ||")
     print("+                              Main Menu                                 ||")
@@ -1154,6 +1155,7 @@ while True:
 
     if mainmenu == "1":
         while True:
+            print("--------------------------- ^simulation output^----------------------------")
             print("++++                                                             ==========")
             print("++                            < ACTIVITIES >                             ||")
             print("+                                                                        ||")
@@ -1170,60 +1172,62 @@ while True:
             print("                                                                           ")
             print("                           Activity[0]: Exit                               ")
             print("||                                                                         ")
-            print("||                                                                        +")
+            print("||                           !user note: Your program output is above!    +")
             print("||                                                                       ++")
             print("==========     Choose the corresponding number                         ++++\n\n\n\n")
-            choice = int(input("\nEnter your choice: "))
+            choice = input("\nEnter your choice: ")
         
-            if choice == 0:
+            if choice == "0":
                 print("Exiting the program. Goodbye!")
                 break
-            elif choice == 1:
+            elif choice == "1":
                 act1()
-            elif choice == 2:
+            elif choice == "2":
                 act2()
-            elif choice == 3:
+            elif choice == "3":
                 act3()
-            elif choice == 4:
+            elif choice == "4":
                 act4()
-            elif choice == 5:
+            elif choice == "5":
                 act5()
-            elif choice == 6:
+            elif choice == "6":
                 act6()
-            elif choice == 7:
+            elif choice == "7":
                 act7()
-            elif choice == 8:
+            elif choice == "8":
                 act8()
-            elif choice == 9:
+            elif choice == "9":
                 act9()
-            elif choice == 10:
+            elif choice == "10":
                 act10()
-            elif choice == 11:
+            elif choice == "11":
                 act11()
-            elif choice == 12:
+            elif choice == "12":
                 act12()
-            elif choice == 13:
+            elif choice == "13":
                 act13()
-            elif choice == 14:
+            elif choice == "14":
                 act14()
-            elif choice == 15:
+            elif choice == "15":
                 act15()
-            elif choice == 16:
+            elif choice == "16":
                 act16()
-            elif choice == 17:
+            elif choice == "17":
                 act17()
-            elif choice == 18:
+            elif choice == "18":
                 act18()
-            elif choice == 19:
+            elif choice == "19":
                 act19()
-            elif choice == 20:
+            elif choice == "20":
                 act20()
             else:
                 print("Invalid choice. Please choose a valid option.")
             print("Invalid input. Please enter a number.")
+            continue
 
     elif mainmenu == "2":
         while True:
+            print("--------------------------- ^simulation output^----------------------------")
             print("++++                                                             ==========")
             print("++                          < Code Challenges >                          ||")
             print("+                                                                        ||")
@@ -1238,7 +1242,7 @@ while True:
             print("                                                                           ")
             print("                         Activity[0]: Exit Program                         ")
             print("||                                                                         ")
-            print("||                                                                        +")
+            print("||                           !user note: Your program output is above!    +")
             print("||                                                                       ++")
             print("==========     Choose the corresponding number                         ++++\n\n\n\n\n")  
 
@@ -1281,6 +1285,7 @@ while True:
                 break
             else:
                 print("Invalid choice. Please select a valid option.")
+            continue
     
     elif mainmenu.lower() == "hibernate":
         os.system('cls')
